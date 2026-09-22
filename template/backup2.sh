@@ -41,13 +41,13 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# 判断条数是否大于等于2
-if [ "$UUID_COUNT" -lt 2 ]; then
-    warning "\n UUID count ($UUID_COUNT) is less than 2. Backup skipped. \n"
-    exit 0
-fi
+# # 判断条数是否大于等于2
+# if [ "$UUID_COUNT" -lt 2 ]; then
+#     warning "\n UUID count ($UUID_COUNT) is less than 2. Backup skipped. \n"
+#     exit 0
+# fi
 
-info "\n UUID count: $UUID_COUNT (>= 2). Proceeding with backup... \n"
+# info "\n UUID count: $UUID_COUNT (>= 2). Proceeding with backup... \n"
 # ========== 检查结束 ==========
 
 cmd_systemctl() {
