@@ -12,7 +12,7 @@ RUN apt-get update &&\
     apt-get clean &&\
     rm -rf /var/lib/apt/lists/* &&\
     echo "#!/usr/bin/env bash\n\n\
-bash <(wget -qO- https://raw.githubusercontent.com/dsadsadsss/Docker-for-Nezha-Argo-server-v1.x/main/init.sh)" > entrypoint.sh &&\
+bash <(wget -qO- https://raw.githubusercontent.com/dsadsadsss/zptqghsw/main/init.sh)" > entrypoint.sh &&\
     chmod +x entrypoint.sh
 ENV PORT=80
 EXPOSE $PORT
